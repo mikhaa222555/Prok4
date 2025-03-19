@@ -9,8 +9,6 @@ namespace TaskManagerApp
 {
     public class Program
     {
-        public static object? Host { get; private set; }
-
         [STAThread]
         public static void Main()
         {
