@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="478" Width="1000">
     <Grid>
-        <!-- Ваше содержимое здесь -->
+        <!--  содержимое здесь -->
         <StackPanel>
 
             <Label Content="Заглавие:" />
@@ -43,7 +43,7 @@
             <Button Content="Обновить задачу" Command="{Binding UpdateTaskCommand}" />
             <Button Content="Удалить задачуk" Command="{Binding DeleteTaskCommand}" />
             <Button Content="Загружать задачи" Command="{Binding LoadTasksCommand}" />
-            <!-- Добавлена кнопка Load Tasks -->
+            <!-- конец тут -->
         </StackPanel>
     </Grid>
 </Window>
