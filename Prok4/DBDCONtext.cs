@@ -12,9 +12,6 @@ namespace TaskManagerApp
 {
     public class Program
         {
-            [STAThread]
-            public static void Main()
-            {
 
                 // 1. Сначала настраиваем конфигурацию
                 var configuration = new ConfigurationBuilder()
